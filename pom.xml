@@ -25,7 +25,7 @@
   </build>
   <dependencies>
   <dependency>
- <!-- Sevlets -->
+ <!-- Servlets -->
  <groupId>javax.servlet</groupId>
  <artifactId>javax.servlet-api</artifactId>
  <version>3.0.1</version>
@@ -33,6 +33,12 @@
   </dependency>
   <dependency>
   <!-- JSP's -->
+  <groupId>javax.servlet.jsp</groupId>
+  <artifactId>jsp-api</artifactId>
+  <version>[2.2,]</version>
+  <scope>provided</scope>
+  </dependency>
+  <dependency>
   <groupId>jstl</groupId>
   <artifactId>jstl</artifactId>
   <version>1.2</version>
